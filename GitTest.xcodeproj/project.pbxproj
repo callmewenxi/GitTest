@@ -16,6 +16,8 @@
 		B3EF6AB62295AA3F003011E4 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EF6AB52295AA3F003011E4 /* GitTestTests.m */; };
 		B3EF6AC12295AA3F003011E4 /* GitTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EF6AC02295AA3F003011E4 /* GitTestUITests.m */; };
 		B3EF6AD02295AC86003011E4 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EF6ACF2295AC86003011E4 /* People.m */; };
+		B3EF6AD32295B07B003011E4 /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EF6AD22295B07B003011E4 /* Man.m */; };
+		B3EF6AD62295B085003011E4 /* Women.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EF6AD52295B085003011E4 /* Women.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		B3EF6AC22295AA3F003011E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3EF6ACE2295AC86003011E4 /* People.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
 		B3EF6ACF2295AC86003011E4 /* People.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		B3EF6AD12295B07B003011E4 /* Man.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Man.h; sourceTree = "<group>"; };
+		B3EF6AD22295B07B003011E4 /* Man.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man.m; sourceTree = "<group>"; };
+		B3EF6AD42295B085003011E4 /* Women.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Women.h; sourceTree = "<group>"; };
+		B3EF6AD52295B085003011E4 /* Women.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Women.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				B3EF6AA02295AA3D003011E4 /* ViewController.m */,
 				B3EF6ACE2295AC86003011E4 /* People.h */,
 				B3EF6ACF2295AC86003011E4 /* People.m */,
+				B3EF6AD12295B07B003011E4 /* Man.h */,
+				B3EF6AD22295B07B003011E4 /* Man.m */,
+				B3EF6AD42295B085003011E4 /* Women.h */,
+				B3EF6AD52295B085003011E4 /* Women.m */,
 				B3EF6AA22295AA3D003011E4 /* Main.storyboard */,
 				B3EF6AA52295AA3F003011E4 /* Assets.xcassets */,
 				B3EF6AA72295AA3F003011E4 /* LaunchScreen.storyboard */,
@@ -267,8 +277,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3EF6AD62295B085003011E4 /* Women.m in Sources */,
 				B3EF6AD02295AC86003011E4 /* People.m in Sources */,
 				B3EF6AA12295AA3D003011E4 /* ViewController.m in Sources */,
+				B3EF6AD32295B07B003011E4 /* Man.m in Sources */,
 				B3EF6AAC2295AA3F003011E4 /* main.m in Sources */,
 				B3EF6A9E2295AA3D003011E4 /* AppDelegate.m in Sources */,
 			);
